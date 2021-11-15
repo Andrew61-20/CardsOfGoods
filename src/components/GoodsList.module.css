@@ -1,0 +1,53 @@
+
+.squareOfGoods {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 5% 25%;
+    justify-content: space-around;
+    align-items: center;
+    width: 15.5em;
+    height: 80em;
+    background-color: #819c9c38;
+    border: none;
+    border-radius: 5px
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .squareOfGoods {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5% 25%;
+        width: 28em;
+        height: 43em;
+    }
+}
+
+@media (min-width: 992px) {
+    .squareOfGoods {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 85px;
+        margin: 5% 13.5%;
+        width: 62.5em;
+        height: 25em;
+    }
+}
+
+.butCheapest {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 120px;
+   height: 35px;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   color: #ffffff;
+   background-color: #14d602;
+   border-radius: 7px;
+   border: none
+}
+
+.butCheapest:focus {outline: none}
+
+.butCheapest:hover {background-color: rgb(0, 162, 255)}

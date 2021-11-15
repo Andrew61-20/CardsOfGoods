@@ -1,0 +1,76 @@
+.block {
+    display: block;
+    width: 180px;
+    height: 115px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px
+}
+
+.listInBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px
+}
+
+.goodName {
+    display: flex;
+    flex-direction: column;
+}
+
+.goodPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px
+}
+
+.typeOfGood {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #bdaeaeef;
+    text-transform: uppercase;
+}
+
+.nameOfGood {
+    font-family: Arial, sans-serif;
+    font-size: 18px
+}
+
+.digitOfPrice {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding-left: 1px
+}
+
+.digitOfPrice::before {
+    content: "$";
+    display: inline;
+    vertical-align: text-top;
+    font-size: 14px
+}
+
+.butForBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #14d602;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-width: thin;
+    border-color: #bdaeaeef
+}
+
+.butForBuy:focus {
+    background-color: #14d602;
+    color: #ffffff;
+    outline: none
+}
+
+
